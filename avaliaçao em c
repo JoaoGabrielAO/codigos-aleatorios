@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int notamacaco, notamacacos;
+    char nomedosmacacos[50];
+
+    printf("\nAvalie o comportamento dos macacos:\n");
+    scanf("%d", &notaturma);
+
+    if (notmacaco <= 4)
+    {
+        printf("\nEstá complicado ir no zoológico!\n");
+    }
+
+    printf("\nDigite o nome do macaco: ");
+    scanf("%49s", nomedosmacacos); // Limita entrada a 49 caracteres
+
+    printf("\nDigite 0 se você não gosta dos macacos e 1 se gosta: ");
+    scanf("%d", &notamacacos);
+
+    if (notamacacos == 0){
+        printf("\nOk\n");
+    }
+
+    return 0;
+}
